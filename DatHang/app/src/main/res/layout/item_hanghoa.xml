@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/avtItem"
+        android:layout_width="41dp"
+        android:layout_height="45dp"
+        android:src="@drawable/apple" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/avtItem"
+        android:text="Apple" />
+
+    <TextView
+        android:id="@+id/tvMota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/tvName"
+        android:text="Còn hàng" />
+    <RelativeLayout
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvDonGia"
+            android:text="Đơn giá: 100$"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_below="@+id/tvDonGia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvSub"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:text="-" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:id="@+id/tvSoChon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10" />
+
+            <TextView
+                android:id="@+id/tvPlus"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:text="+" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

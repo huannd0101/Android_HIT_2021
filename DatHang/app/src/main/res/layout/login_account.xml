@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/tv1"
+        android:textStyle="bold"
+        android:textColor="#0B93FF"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:text="Đăng ký tài khoản"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:background="@drawable/custom_edt"
+        android:hint="Full name" />
+
+<!--    <LinearLayout-->
+<!--        android:layout_below="@+id/edtName"-->
+<!--        android:id="@+id/ll"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <Spinner-->
+<!--            android:id="@+id/spnDay"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content" />-->
+
+<!--        <Spinner-->
+<!--            android:id="@+id/spnMonth"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content" />-->
+
+<!--        <Spinner-->
+<!--            android:id="@+id/spnYear"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content" />-->
+
+<!--    </LinearLayout>-->
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtNewUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtName"
+        android:background="@drawable/custom_edt"
+        android:hint="User name" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtNewPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtNewUser"
+        android:background="@drawable/custom_edt"
+        android:hint="Password" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/edtNewPass"
+        android:layout_centerHorizontal="true"
+        android:text="Đăng ký"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

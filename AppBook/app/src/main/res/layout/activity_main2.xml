@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:background="@null"
+            android:layout_margin="5dp"
+            android:padding="15dp"
+            android:src="@drawable/back_arrow"
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_toRightOf="@+id/btnBack"
+            android:id="@+id/tvTitle"
+            android:text="title"
+            android:padding="10dp"
+            android:textSize="26dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll2"
+        android:padding="15dp"
+        android:layout_below="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="110dp"
+            android:layout_height="200dp"/>
+
+        <RelativeLayout
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/imgView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="24dp"
+                android:text="Tác giả: Huân"
+                android:id="@+id/tvAuthor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/tvAuthor"
+                android:text="160.000đ"
+                android:id="@+id/tvPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:id="@+id/tvRateStar"
+                android:textColor="#f00"
+                android:textSize="24dp"
+                android:layout_below="@+id/tvPrice"
+                android:text="3.6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:id="@+id/tvTemp"
+                android:textStyle="bold"
+                android:textSize="26dp"
+                android:layout_below="@+id/tvRateStar"
+                android:text="Mô tả: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textSize="16dp"
+                android:layout_below="@+id/tvTemp"
+                android:text="chúng tôi là những siêu anh hùng"
+                android:id="@+id/tvContentDiscription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/ll3"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_below="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/tvNumOfReview"
+                android:text="10 lượt đánh giá"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/tvCategoty"
+            android:text="10 lượt đánh giá"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/tvNumOfPage"
+            android:text="10 lượt đánh giá"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/tvTemp2"
+        android:layout_below="@+id/ll3"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:text="Xếp hạng và đánh giá"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_below="@+id/tvTemp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RatingBar
+            android:id="@+id/rateStar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:numStars="5"
+            android:padding="0dp"
+            android:rating="3.3"
+            android:scaleX="0.6"
+            android:scaleY="0.6" />
+
+        <Button
+            android:padding="5dp"
+            android:text="Gửi đánh giá"
+            android:layout_toRightOf="@+id/rateStar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</RelativeLayout>
