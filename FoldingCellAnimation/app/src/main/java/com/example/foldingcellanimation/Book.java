@@ -1,4 +1,4 @@
-package com.example.appbook;
+package com.example.foldingcellanimation;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -36,6 +36,18 @@ public class Book implements Parcelable {
         this.price = price;
         this.numOfReview = numOfReview;
     }
+
+    public static final Creator<Book> CREATOR = new Creator<Book>() {
+        @Override
+        public Book createFromParcel(Parcel in) {
+            return new Book(in);
+        }
+
+        @Override
+        public Book[] newArray(int size) {
+            return new Book[size];
+        }
+    };
 
     public Integer getPrice() {
         return price;
@@ -80,17 +92,7 @@ public class Book implements Parcelable {
         }
     }
 
-    public static final Creator<Book> CREATOR = new Creator<Book>() {
-        @Override
-        public Book createFromParcel(Parcel in) {
-            return new Book(in);
-        }
 
-        @Override
-        public Book[] newArray(int size) {
-            return new Book[size];
-        }
-    };
 
     public Integer getId() {
         return id;

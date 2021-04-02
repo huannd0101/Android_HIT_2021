@@ -1,167 +1,227 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+<com.ramotion.foldingcell.FoldingCell xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/folding_cell"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
 
-    <RelativeLayout
-        android:id="@+id/ll1"
+    android:layout_margin="10dp">
+
+    <FrameLayout
+        android:id="@+id/cell_content_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <ImageButton
-            android:layout_margin="5dp"
-            android:padding="10dp"
-            android:src="@drawable/back_arrow"
-            android:id="@+id/btnBack"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
-        <TextView
-            android:layout_toRightOf="@+id/btnBack"
-            android:id="@+id/tvTitle"
-            android:text="title"
-            android:padding="10dp"
-            android:textSize="26dp"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/ll2"
-        android:padding="15dp"
-        android:layout_below="@+id/ll1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <ImageView
-            android:id="@+id/imgView"
-            android:layout_width="110dp"
-            android:layout_height="200dp"/>
-
-        <RelativeLayout
-            android:layout_marginLeft="20dp"
-            android:layout_toRightOf="@+id/imgView"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        <androidx.cardview.widget.CardView
+            app:cardBackgroundColor="#1BEFABAB"
+            app:cardCornerRadius="50dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
-            <TextView
-                android:layout_marginBottom="10dp"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="24dp"
-                android:text="Tác giả: Huân"
-                android:id="@+id/tvAuthor"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-
-            <TextView
-                android:layout_marginBottom="10dp"
-                android:layout_below="@+id/tvAuthor"
-                android:text="160.000đ"
-                android:id="@+id/tvPrice"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-
-            <TextView
-                android:layout_marginBottom="10dp"
-                android:id="@+id/tvRateStar"
-                android:textColor="#f00"
-                android:textSize="24dp"
-                android:layout_below="@+id/tvPrice"
-                android:text="3.6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-
-            <TextView
-                android:layout_marginBottom="10dp"
-                android:id="@+id/tvTemp"
-                android:textStyle="bold"
-                android:textSize="26dp"
-                android:layout_below="@+id/tvRateStar"
-                android:text="Mô tả: "
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-
-            <TextView
-                android:textSize="16dp"
-                android:layout_below="@+id/tvTemp"
-                android:text="chúng tôi là những siêu anh hùng"
-                android:id="@+id/tvContentDiscription"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-
-        </RelativeLayout>
-
-
-    </RelativeLayout>
-    <LinearLayout
-        android:id="@+id/ll3"
-        android:orientation="horizontal"
-        android:weightSum="3"
-        android:layout_below="@+id/ll2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <LinearLayout
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content">
-            <TextView
-                android:textAlignment="center"
-                android:id="@+id/tvNumOfReview"
-                android:text="10 lượt đánh giá"
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
-        </LinearLayout>
+                android:layout_height="wrap_content">
 
-        <TextView
-            android:textAlignment="center"
-            android:id="@+id/tvCategoty"
-            android:text="10 lượt đánh giá"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"/>
+                <RelativeLayout
+                    android:id="@+id/ll1"
+                    android:padding="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
-        <TextView
-            android:textAlignment="center"
-            android:id="@+id/tvNumOfPage"
-            android:text="10 lượt đánh giá"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/tvTitle2"
+                        android:text="title"
+                        android:padding="10dp"
+                        android:textSize="26dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </RelativeLayout>
 
-    </LinearLayout>
+                <RelativeLayout
+                    android:id="@+id/ll22"
+                    android:padding="15dp"
+                    android:layout_below="@+id/ll1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
-    <TextView
-        android:padding="10dp"
-        android:id="@+id/tvTemp2"
-        android:layout_below="@+id/ll3"
-        android:textColor="@color/black"
-        android:textSize="24dp"
-        android:text="Xếp hạng và đánh giá"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+                    <ImageView
+                        android:id="@+id/imgView2"
+                        android:layout_width="110dp"
+                        android:layout_height="200dp"/>
 
-    <RelativeLayout
-        android:layout_below="@+id/tvTemp2"
+                    <RelativeLayout
+                        android:layout_marginLeft="20dp"
+                        android:layout_toRightOf="@+id/imgView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="24dp"
+                            android:text="Tác giả: Huân"
+                            android:id="@+id/tvAuthor"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:layout_marginBottom="10dp"
+                            android:layout_below="@+id/tvAuthor"
+                            android:text="160.000đ"
+                            android:id="@+id/tvPrice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:layout_marginBottom="10dp"
+                            android:id="@+id/tvRateStar"
+                            android:textColor="#f00"
+                            android:textSize="24dp"
+                            android:layout_below="@+id/tvPrice"
+                            android:text="3.6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:layout_marginBottom="10dp"
+                            android:id="@+id/tvTemp"
+                            android:textStyle="bold"
+                            android:textSize="26dp"
+                            android:layout_below="@+id/tvRateStar"
+                            android:text="Mô tả: "
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:textSize="16dp"
+                            android:layout_below="@+id/tvTemp"
+                            android:text="chúng tôi là những siêu anh hùng"
+                            android:id="@+id/tvContentDiscription"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+                <LinearLayout
+                    android:id="@+id/ll3"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    android:layout_below="@+id/ll22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textAlignment="center"
+                            android:id="@+id/tvNumOfReview"
+                            android:text="10 lượt đánh giá"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:textAlignment="center"
+                        android:id="@+id/tvCategoty"
+                        android:text="10 lượt đánh giá"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:textAlignment="center"
+                        android:id="@+id/tvNumOfPage"
+                        android:text="10 lượt đánh giá"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:padding="10dp"
+                    android:id="@+id/tvTemp2"
+                    android:layout_below="@+id/ll3"
+                    android:textColor="@color/black"
+                    android:textSize="24dp"
+                    android:text="Xếp hạng và đánh giá"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <RelativeLayout
+                    android:layout_below="@+id/tvTemp2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RatingBar
+                        android:rating="3.3"
+                        android:numStars="5"
+                        android:id="@+id/rateStar"
+                        android:scaleY="0.8"
+                        android:scaleX="0.8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:text="Gửi đánh giá"
+                        android:layout_marginLeft="15dp"
+                        android:layout_toRightOf="@+id/rateStar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+    ​
+
+
+
+
+    <FrameLayout
+        android:id="@+id/cell_title_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#1BEFABAB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        <RatingBar
-            android:rating="3.3"
-            android:numStars="5"
-            android:id="@+id/rateStar"
-            android:scaleY="0.8"
-            android:scaleX="0.8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <Button
-            android:text="Gửi đánh giá"
-            android:layout_marginLeft="15dp"
-            android:layout_toRightOf="@+id/rateStar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-    </RelativeLayout>
-</RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:id="@+id/ll2"
+                    android:padding="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imgView"
+                        android:layout_width="120dp"
+                        android:layout_height="180dp"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/ll2"
+                    android:id="@+id/tvTitle"
+                    android:text="title"
+                    android:padding="10dp"
+                    android:textSize="26dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+
+    ​
+</com.ramotion.foldingcell.FoldingCell>
