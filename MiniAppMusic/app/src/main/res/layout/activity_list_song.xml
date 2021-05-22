@@ -6,4 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".ListSong">
 
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="List Song"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="24dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcSong"
+        android:layout_width="413dp"
+        android:layout_height="655dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        tools:layout_editor_absoluteX="-2dp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

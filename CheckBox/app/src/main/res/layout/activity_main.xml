@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBox
+        android:id="@+id/cbtoan"
+        android:text="Toán học"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/cbvan"
+        android:text="Văn học"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnkq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kết quả"/>
+
+    <TextView
+        android:id="@+id/tvkq"
+        android:text="Kết quả ở đây"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

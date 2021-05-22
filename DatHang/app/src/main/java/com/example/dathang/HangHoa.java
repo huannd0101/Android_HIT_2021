@@ -1,8 +1,12 @@
-package com.example.btvn_buoi4;
+package com.example.dathang;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
+import java.io.Serializable;
 import java.util.List;
 
-public class HangHoa {
+public class HangHoa implements Parcelable {
     private int id;
     private int avt;
     private String name;
@@ -21,6 +25,27 @@ public class HangHoa {
         this.price = price;
         this.soLuong = sl;
     }
+
+    protected HangHoa(Parcel in) {
+        id = in.readInt();
+        avt = in.readInt();
+        name = in.readString();
+        describe = in.readString();
+        price = in.readInt();
+        soLuong = in.readInt();
+    }
+
+    public static final Creator<HangHoa> CREATOR = new Creator<HangHoa>() {
+        @Override
+        public HangHoa createFromParcel(Parcel in) {
+            return new HangHoa(in);
+        }
+
+        @Override
+        public HangHoa[] newArray(int size) {
+            return new HangHoa[size];
+        }
+    };
 
     public int getSoLuong() {
         return soLuong;
@@ -71,9 +96,25 @@ public class HangHoa {
     }
 
     public HangHoa getHangHoaById(int id, List<HangHoa> list){
-        for(HangHoa a : list)
+        for(com.example.dathang.HangHoa a : list)
             if(a.id == id)
                 return a;
         return null;
+    }
+
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeInt(id);
+        dest.writeInt(avt);
+        dest.writeString(name);
+        dest.writeString(describe);
+        dest.writeInt(price);
+        dest.writeInt(soLuong);
     }
 }

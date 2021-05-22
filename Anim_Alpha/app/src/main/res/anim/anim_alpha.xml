@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<set xmlns:android="http://schemas.android.com/apk/res/android">
-
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true">
+    <alpha android:fromAlpha="1.0"
+        android:toAlpha="0.1"
+        android:repeatCount="2"
+        android:repeatMode="reverse"
+        android:duration="2000"/>
+    //repeatCount là số lần lặp lại, để là infinite thì lặp lại k dừng
+    //repeatMode là chiều lặp lại. mặc định là start
+    //duration là thời gian thực hiện fromAlpha đến toAlpha
+    //android:fillAfter="true" chỉ áp dụng khi repeatCount có số cụ thể để khi dừng nó giữ nguyên trạng thái lúc dừng
 </set>

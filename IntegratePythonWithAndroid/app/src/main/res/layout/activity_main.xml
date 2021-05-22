@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:background="#F06C25"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <ImageButton
+            android:id="@+id/btn_cancel"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitXY"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/btn_cancel" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="7"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp">
+
+        <FrameLayout
+            android:id="@+id/camera_preview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/button_capture"
+            android:text="Capture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:background="#F06C25"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+    </RelativeLayout>
+
+
+
+<!--    <EditText-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:hint="number 1"-->
+<!--        android:id="@+id/edt1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"/>-->
+
+<!--    <EditText-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_below="@+id/edt1"-->
+<!--        android:hint="number 2"-->
+<!--        android:id="@+id/edt2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"/>-->
+
+<!--    <Button-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_below="@id/edt2"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:text="tính"-->
+<!--        android:id="@+id/btn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+<!--    <TextView-->
+<!--        android:textColor="#f00"-->
+<!--        android:textSize="24dp"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_below="@+id/btn"-->
+<!--        android:id="@+id/tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Hello World!"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+
+</LinearLayout>

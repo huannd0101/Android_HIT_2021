@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">BottomSheetDialog</string>
+    <string name="content">private void clickOpenBottomSheetDialog() {
+        View view = getLayoutInflater().inflate(R.layout.buttom_sheet, null);
+        BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(this);
+        bottomSheetDialog.setContentView(view);
+        bottomSheetDialog.show();
+
+        //sets k cho tắt bằng các cách thông thường
+        bottomSheetDialog.setCancelable(false);
+        //tắt bằng button bên trong
+        Button btnCancel, btnPayment;
+        btnCancel = view.findViewById(R.id.btnCancel);
+        btnPayment = view.findViewById(R.id.btnPayment);
+
+        btnCancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                bottomSheetDialog.dismiss();
+            }
+        });
+
+        btnPayment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this, "Click btnPayment", Toast.LENGTH_SHORT).show();
+            }
+        });View view = getLayoutInflater().inflate(R.layout.buttom_sheet, null);
+        BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(this);
+        bottomSheetDialog.setContentView(view);
+        bottomSheetDialog.show();
+
+        //sets k cho tắt bằng các cách thông thường
+        bottomSheetDialog.setCancelable(false);
+        //tắt bằng button bên trong
+        Button btnCancel, btnPayment;
+        btnCancel = view.findViewById(R.id.btnCancel);
+        btnPayment = view.findViewById(R.id.btnPayment);
+
+        btnCancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                bottomSheetDialog.dismiss();
+            }
+        });
+
+        btnPayment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this, "Click btnPayment", Toast.LENGTH_SHORT).show();
+            }
+        });View view = getLayoutInflater().inflate(R.layout.buttom_sheet, null);
+        BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(this);
+        bottomSheetDialog.setContentView(view);
+        bottomSheetDialog.show();
+
+        //sets k cho tắt bằng các cách thông thường
+        bottomSheetDialog.setCancelable(false);
+        //tắt bằng button bên trong
+        Button btnCancel, btnPayment;
+        btnCancel = view.findViewById(R.id.btnCancel);
+        btnPayment = view.findViewById(R.id.btnPayment);
+
+        btnCancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                bottomSheetDialog.dismiss();
+            }
+        });
+
+        btnPayment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this, "Click btnPayment", Toast.LENGTH_SHORT).show();
+            }
+        });
+    }</string>
+</resources>

@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/cirView"
+
+            app:civ_border_width="5dp"
+            app:civ_border_color="@color/purple_200"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </androidx.cardview.widget.CardView>
 
 </RelativeLayout>
+
+
+<!--<ImageView-->
+<!--android:adjustViewBounds="true"-->
+<!--android:scaleType="centerCrop"-->
+<!--android:id="@+id/img"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"/>-->

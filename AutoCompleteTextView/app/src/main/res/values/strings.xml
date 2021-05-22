@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">AutoCompleteTextView</string>
+    <string-array name="arr">
+        <item>Điện Biên</item>
+        <item>Hà Nội</item>
+        <item>Thanh Hóa</item>
+        <item>Nghệ An</item>
+        <item>Bắc Giang</item>
+        <item>Hà Nam</item>
+        <item>Hưng Yên</item>
+    </string-array>
 </resources>

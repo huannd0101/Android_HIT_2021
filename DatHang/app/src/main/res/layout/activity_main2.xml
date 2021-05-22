@@ -1,9 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity2">
+    <LinearLayout
+        android:background="#BAFFAD"
+        android:padding="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:layout_width="327dp"
+            android:layout_height="wrap_content"
+            android:text="Oder Food"
+            android:textColor="#F81111"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/oder"
+                android:layout_width="63dp"
+                android:layout_height="40dp"
+                android:background="#BAFFAD"
+                android:src="@drawable/shopping" />
+
+            <TextView
+                android:id="@+id/tvSoLuong"
+                android:textColor="#F80000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="18dp"
+                android:text="0" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/listItem"
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcHangHoa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="24dp"
+            android:layout_weight="1.5"
+            android:text="Total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/sum"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:layout_weight="0.5"
+            android:text="0 $"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oder" />
+
+        <Button
+            android:id="@+id/btnHuyBoTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="243dp"
+            android:layout_toEndOf="@+id/btnOrder"
+            android:text="Hủy bỏ" />
+    </RelativeLayout>
+
+</LinearLayout>

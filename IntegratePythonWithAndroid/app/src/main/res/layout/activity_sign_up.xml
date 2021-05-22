@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".SignUp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        app:cardCornerRadius="15dp"
+        app:cardBackgroundColor="#7CFFFFFF"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:padding="20dp"
+            android:id="@+id/rlt"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:text="Username:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/tv1"
+                android:id="@+id/edtUsername"
+                android:hint="User name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/edtUsername"
+                android:id="@+id/tv2"
+                android:text="Password:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/edtPasss"
+                android:layout_below="@id/tv2"
+                android:hint="Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/edtPasss"
+                android:id="@+id/tv3"
+                android:text="Password:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/edtPasssCf"
+                android:layout_below="@id/tv3"
+                android:hint="Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/edtPasssCf"
+                android:id="@+id/tv4"
+                android:text="Email:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/edtEmail"
+                android:layout_below="@id/tv4"
+                android:hint="Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:background="@drawable/custom_btn"
+                android:textAllCaps="false"
+                android:id="@+id/btn_signupAcc"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/edtEmail"
+                android:layout_centerHorizontal="true"
+                android:text="Sign Up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

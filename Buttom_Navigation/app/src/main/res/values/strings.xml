@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Buttom_Navigation</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_home2">Home2</string>
+    <string name="menu_home3">Home3</string>
+    <string name="menu_home4">Home4</string>
 </resources>

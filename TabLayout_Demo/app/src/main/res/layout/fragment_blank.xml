@@ -6,9 +6,82 @@
     tools:context=".BlankFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
+
+    <RelativeLayout
+        android:background="@drawable/bg"
+        android:id="@+id/rlt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/titleApp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="15dp"
+            android:textSize="28dp"
+            android:text="Thông tin dịch bệnh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+            android:layout_below="@+id/titleApp"
+            android:id="@+id/rlt1"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <AutoCompleteTextView
+                android:textColorHint="#61A6F1"
+                android:textColor="#61A6F1"
+                android:background="@drawable/custom_edt"
+                android:hint="Việt Nam"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:completionThreshold="1"
+                android:id="@+id/edtSearch"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="15dp"/>
+
+            <ImageButton
+                android:layout_toRightOf="@+id/edtSearch"
+                android:background="@null"
+                android:id="@+id/btnSearch"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/loupe" />
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcView"
+            android:layout_width="350dp"
+            android:layout_height="562dp"
+            android:layout_below="@+id/rlt1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="30dp" />
+
+        <ProgressBar
+            android:layout_centerInParent="true"
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="91dp"
+            android:layout_height="91dp" />
+    </RelativeLayout>
 </FrameLayout>
+
+<!--<layout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    tools:context=".BlankFragment">-->
+<!--    <RelativeLayout android:layout_height="match_parent"-->
+<!--    android:layout_width="match_parent">-->
+<!--    <TextView-->
+<!--        android:id="@+id/tvTest"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"/>-->
+<!--</RelativeLayout>-->
+<!--</layout>-->

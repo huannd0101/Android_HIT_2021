@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <EditText
+        android:hint="Username"
+        android:id="@+id/edtUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="Password"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/edtUser"
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/edtPassword"
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lưu"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <Button
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/checkBox"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/backgound"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/listSong"
+            android:padding="10dp"
+            android:text="Danh sách"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Tên bài hát"
+        android:textColor="#BAD32F2F"
+        android:textSize="24dp" />
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/tvTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/vinyl" />
+
+    <RelativeLayout
+        android:id="@+id/rltLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_above="@+id/rltLayout"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="-500dp"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="00:00"
+                android:textColor="#D81F1F" />
+
+            <TextView
+                android:id="@+id/tvSum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="230dp"
+                android:layout_toEndOf="@+id/tvTime"
+                android:text="00:00"
+                android:textColor="#D81F1F" />
+        </RelativeLayout>
+
+        <SeekBar
+            android:id="@+id/sb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rltLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitle"
+        android:layout_marginTop="527dp">
+
+        <ImageButton
+            android:id="@+id/rewind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:background="@null"
+            android:src="@drawable/rewind_button" />
+
+        <ImageButton
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_toEndOf="@+id/rewind"
+            android:layout_toRightOf="@+id/rewind"
+            android:background="@null"
+            android:src="@drawable/play" />
+
+        <ImageButton
+            android:id="@+id/stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_toRightOf="@id/play"
+            android:background="@null"
+            android:src="@drawable/stop" />
+
+        <ImageButton
+            android:id="@+id/forward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_toRightOf="@+id/stop"
+            android:background="@null"
+            android:src="@drawable/forward_button" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="#E91E63"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tvOrder"
+            android:text="Order"
+            android:textSize="30dp"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <Button
+            android:id="@+id/btnBuy"
+            android:text="To Fragment Buy"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/tvOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+    </RelativeLayout>
+
+</layout>

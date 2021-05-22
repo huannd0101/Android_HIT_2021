@@ -1,5 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/custom_item_box"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        >
 
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#f00"
+            android:textAlignment="center"
+            android:text="Country_Region: "
+            android:id="@+id/Country_Region"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <RelativeLayout
+            android:paddingLeft="60dp"
+            android:layout_below="@+id/Country_Region"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <LinearLayout
+                android:id="@+id/ll1"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="25dp">
+                <TextView
+                    android:textColor="#003585"
+                    android:layout_weight="1"
+                    android:text="Confirmed: "
+                    android:id="@+id/Confirmed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textColor="#003585"
+                    android:layout_weight="1"
+                    android:text="Deaths: "
+                    android:id="@+id/Deaths"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_below="@+id/ll1"
+                android:id="@+id/ll2"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="25dp">
+                <TextView
+                    android:textColor="#003585"
+                    android:layout_weight="1"
+                    android:text="Recovered: "
+                    android:id="@+id/Recovered"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textColor="#003585"
+                    android:layout_weight="1"
+                    android:text="Status: "
+                    android:id="@+id/Status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
 </RelativeLayout>
+
+<!--            "Country_Region": "Zambia",-->
+<!--            "Confirmed": "17056",-->
+<!--            "Deaths": "350",-->
+<!--            "Recovered": "16102"-->

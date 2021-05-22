@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="Userrrr" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5258cd87-faf7-43d1-8a5c-3b120cfea70f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../BottomSheet/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BottomSheet/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BottomSheet/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BottomSheet/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BottomSheet/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BottomSheet/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BottomSheet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BottomSheet/app/src/main/res/layout/buttom_sheet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BottomSheet/app/src/main/res/layout/layout_content_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BottomSheetDialog/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BottomSheetDialog/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BottomSheetDialog/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BottomSheetDialog/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BottomSheetDialog/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BottomSheetDialog/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BottomSheetDialog/app/src/main/res/layout/buttom_sheet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BottomSheetDialogFragment/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BottomSheetDialogFragment/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BottomSheetDialogFragment/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BottomSheetDialogFragment/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BottomSheetDialogFragment/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BottomSheetDialogFragment/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BottomSheetDialogFragment/app/src/main/res/layout/buttom_sheet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BroadcastReceiverPart1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BroadcastReceiverPart1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BroadcastReceiverPart1/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BroadcastReceiverPart1/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BroadcastReceiverPart1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BroadcastReceiverPart1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BroadcastReceiverPart1/app/src/main/java/com/example/broadcastreceiverpart1/BroadcastReceiverExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/callvideodemo/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/callvideodemo/activities/IncomingInvitationActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/callvideodemo/activities/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/callvideodemo/activities/OutgoingInvitationActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/callvideodemo/activities/SignInActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/callvideodemo/activities/SignUpActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/callvideodemo/adapters/UserAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/callvideodemo/firebase/MessagingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/callvideodemo/listeners/UserListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/callvideodemo/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/callvideodemo/network/ApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/callvideodemo/network/ApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/callvideodemo/utilities/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/callvideodemo/utilities/PreferenceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/button_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/edittext_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/video_call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/view_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_accept_invitation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_meeting_invitation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_meeting_invitation_user_icon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_reject_invitation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_accept.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_reject.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_video_call.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_incoming_invitation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_outgoing_intvitation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_in.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/user_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/release/app-release.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/release/output-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/androidTest/java/com/example/chatapp/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/java/com/example/chatapp/Adapters/ChatAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/java/com/example/chatapp/Adapters/FragmentsAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/java/com/example/chatapp/Adapters/UsersAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/java/com/example/chatapp/ChatDetailActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/java/com/example/chatapp/FirstScreenActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/java/com/example/chatapp/Fragments/AllUserFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/java/com/example/chatapp/Fragments/CallsFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/java/com/example/chatapp/Fragments/ChatsFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/java/com/example/chatapp/GroupChatActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/java/com/example/chatapp/IMyActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/java/com/example/chatapp/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/java/com/example/chatapp/Models/Chat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/java/com/example/chatapp/Models/MessageModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/java/com/example/chatapp/Models/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/java/com/example/chatapp/SettingActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/java/com/example/chatapp/SignInActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/java/com/example/chatapp/SignUpActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/java/com/example/chatapp/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/java/com/example/chatapp/notification/ConfigNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/drawable-v24/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/drawable-v24/arrow_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/drawable-v24/button_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/drawable-v24/call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/drawable-v24/edittext_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/drawable-v24/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/drawable-v24/google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/drawable-v24/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/drawable-v24/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/drawable-v24/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/drawable-v24/send.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/drawable-v24/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/drawable-v24/video_call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/drawable-v24/view_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/drawable/bg_reciver.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/drawable/bg_sender.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/drawable/bt_edt_message.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/drawable/custom_button_save.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/drawable/custom_linear_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/drawable/round_shape.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/layout/activity_chat_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/layout/activity_frist_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/layout/activity_group_chat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/layout/activity_setting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/layout/activity_sign_in.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/layout/activity_sign_up.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/layout/activity_test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/layout/fragment_calls.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/layout/fragment_chat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/layout/fragment_status.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/layout/sample_reciver.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/layout/sample_sender.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/layout/user_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/menu/menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/raw/teemo.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/raw/teemoattack.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/raw/whistlefart.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/app/src/test/java/com/example/chatapp/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatApp/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chatting/app/src/main/java/com/example/chatting/SignUpActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chatting/app/src/main/res/drawable-v24/icon_app.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chatting/app/src/main/res/layout/activity_sign_up.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo_Retrofit/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo_Retrofit/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo_Retrofit/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo_Retrofit/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo_Retrofit/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo_Retrofit/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo_Retrofit/app/src/main/java/com/example/demo_retrofit/api/ApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo_Retrofit/app/src/main/java/com/example/demo_retrofit/module/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo_Retrofit/app/src/main/java/com/example/demo_retrofit/module/Currency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo_Retrofit/app/src/main/java/com/example/demo_retrofit/module/ObjBig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo_Retrofit/app/src/main/java/com/example/demo_retrofit/module/ObjChild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo_Retrofit/app/src/main/java/com/example/demo_retrofit/module/Quote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo_SQLite/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo_SQLite/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo_SQLite/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo_SQLite/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo_SQLite/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo_SQLite/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo_SQLite/app/src/main/java/com/example/demo_sqlite/DAO/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo_SQLite/app/src/main/java/com/example/demo_sqlite/DAO/UserDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo_SQLite/app/src/main/java/com/example/demo_sqlite/UpdateActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo_SQLite/app/src/main/java/com/example/demo_sqlite/adapters/UserAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo_SQLite/app/src/main/java/com/example/demo_sqlite/enteties/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo_SQLite/app/src/main/java/com/example/demo_sqlite/event/IOnClickUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo_SQLite/app/src/main/res/drawable/custom_edt_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo_SQLite/app/src/main/res/layout/activity_update.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo_SQLite/app/src/main/res/layout/item_user_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DowloadFile/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DowloadFile/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DowloadFile/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DowloadFile/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DowloadFile/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/app/src/main/java/com/example/eathit/common/fragment/FirstSignupFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/app/src/main/java/com/example/eathit/common/fragment/SecondSignupFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/app/src/main/java/com/example/eathit/common/fragment/ThirdSignupFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/app/src/main/java/com/example/eathit/common/loginSignup/LoginActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/app/src/main/java/com/example/eathit/common/loginSignup/SignupActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/app/src/main/res/drawable-v21/black_border.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/app/src/main/res/drawable-v21/burger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/app/src/main/res/drawable-v21/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/app/src/main/res/drawable-v21/google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/app/src/main/res/drawable-v21/ic_baseline_arrow_back_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/app/src/main/res/drawable-v21/ic_baseline_edit_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/app/src/main/res/drawable-v21/ic_baseline_email_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/app/src/main/res/drawable-v21/ic_baseline_local_phone_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/app/src/main/res/drawable-v21/ic_baseline_password_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/app/src/main/res/drawable-v21/ic_baseline_person_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/app/src/main/res/drawable-v21/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/app/src/main/res/layout/activity_signup.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/app/src/main/res/layout/fragment_first_signup.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/app/src/main/res/layout/fragment_second_signup.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatHIT/app/src/main/res/layout/fragment_thirth_signup.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegratePythonWithAndroid/app/src/main/java/com/example/integratepythonwithandroid/FirstScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegratePythonWithAndroid/app/src/main/java/com/example/integratepythonwithandroid/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegratePythonWithAndroid/app/src/main/java/com/example/integratepythonwithandroid/SecondScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegratePythonWithAndroid/app/src/main/java/com/example/integratepythonwithandroid/SignUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegratePythonWithAndroid/app/src/main/python/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegratePythonWithAndroid/app/src/main/res/drawable/bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegratePythonWithAndroid/app/src/main/res/drawable/bg_loading.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegratePythonWithAndroid/app/src/main/res/drawable/bg_loading1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegratePythonWithAndroid/app/src/main/res/drawable/btn_cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegratePythonWithAndroid/app/src/main/res/drawable/custom_btn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegratePythonWithAndroid/app/src/main/res/layout/activity_first_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegratePythonWithAndroid/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegratePythonWithAndroid/app/src/main/res/layout/activity_second_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntegratePythonWithAndroid/app/src/main/res/layout/activity_sign_up.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnFireBase/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnFireBase/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnFireBase/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnFireBase/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnFireBase/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnFireBase/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login_Demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login_Demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login_Demo/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login_Demo/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login_Demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login_Demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login_Demo/app/src/main/java/com/example/login_demo/LoginActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login_Demo/app/src/main/java/com/example/login_demo/LoginAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login_Demo/app/src/main/java/com/example/login_demo/LoginTabFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login_Demo/app/src/main/java/com/example/login_demo/SignupTabFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login_Demo/app/src/main/res/drawable-v24/bg_login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login_Demo/app/src/main/res/drawable-v24/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login_Demo/app/src/main/res/drawable-v24/google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login_Demo/app/src/main/res/drawable-v24/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login_Demo/app/src/main/res/drawable-v24/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login_Demo/app/src/main/res/drawable/button_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login_Demo/app/src/main/res/drawable/edittext_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login_Demo/app/src/main/res/drawable/view_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login_Demo/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login_Demo/app/src/main/res/layout/login_tab_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login_Demo/app/src/main/res/layout/signup_tab_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MiniAppMusic/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MiniAppMusic/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MiniAppMusic/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MiniAppMusic/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MiniAppMusic/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MiniAppMusic/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/java/com/example/musicapp/activities/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/java/com/example/musicapp/adapters/SongAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/java/com/example/musicapp/broadcastReceiver/MusicReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/java/com/example/musicapp/models/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/java/com/example/musicapp/notification/ConfigNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/java/com/example/musicapp/services/MusicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/java/com/example/musicapp/utilities/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/res/drawable/ic_baseline_clear_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/res/drawable/ic_baseline_notifications_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/res/drawable/ic_baseline_pause_circle_outline_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/res/drawable/ic_baseline_play_circle_outline_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/res/drawable/ic_baseline_skip_next_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/res/drawable/ic_baseline_skip_previous_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/res/layout/song_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/res/raw/anh_se_khong_doi_thay.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/res/raw/chi_muon_ben_em_luc_nay.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/res/raw/dieu_anh_biet.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/res/raw/doi_ta.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/res/raw/hen_yeu.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/res/raw/keo_bong_gon.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/res/raw/khong_phai_em_dung_khong.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/res/raw/lam_vo_anh_nhe.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/res/raw/loi_xin_loi_vung_ve.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/res/raw/mot_hai_ba_bon.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/res/raw/niu_duyen.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/app/src/main/res/raw/teemo.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicApp/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/androidTest/java/com/example/mychat/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/Adapters/ChatAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/Adapters/ChatAdapter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/Adapters/FragmentsAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/Adapters/MessageAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/Adapters/UsersAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/Fragments/AllUserFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/Fragments/CallsFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/Fragments/ChatsFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/Models/Chat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/Models/ChatList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/Models/MessageModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/Models/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/activity/ChatDetailActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/activity/FirstScreenActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/activity/GroupChatActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/activity/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/activity/SettingActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/activity/SignInActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/activity/SignUpActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/notification/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/notification/ConfigNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/notification/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/notification/MyFirebaseIdService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/notification/MyFirebaseMessaging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/notification/MyResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/notification/OreoNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/notification/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/notification/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/sevices/APIService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/java/com/example/mychat/sevices/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/drawable-v24/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/drawable-v24/arrow_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/drawable-v24/button_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/drawable-v24/call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/drawable-v24/edittext_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/drawable-v24/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/drawable-v24/google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/drawable-v24/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/drawable-v24/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/drawable-v24/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/drawable-v24/send.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/drawable-v24/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/drawable-v24/video_call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/drawable-v24/view_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/drawable/bg_reciver.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/drawable/bg_sender.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/drawable/bt_edt_message.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/drawable/custom_button_save.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/drawable/custom_linear_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/drawable/round_shape.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/layout/activity_chat_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/layout/activity_frist_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/layout/activity_group_chat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/layout/activity_setting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/layout/activity_sign_in.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/layout/activity_sign_up.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/layout/fragment_calls.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/layout/fragment_chat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/layout/fragment_status.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/layout/sample_reciver.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/layout/sample_reciver2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/layout/sample_sender.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/layout/sample_sender2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/layout/user_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/menu/menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/raw/teemo.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/raw/teemoattack.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/raw/whistlefart.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/app/src/test/java/com/example/mychat/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyChat/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Notification_demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Notification_demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Notification_demo/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Notification_demo/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Notification_demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Notification_demo/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Notification_demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Notification_demo/app/src/main/java/com/example/notification_demo/MyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Notification_demo/app/src/main/res/drawable-v24/chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Notification_demo/app/src/main/res/drawable-v24/img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Notification_demo/app/src/main/res/layout/custom_notification.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Notification_demo/app/src/main/res/raw/teemo.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Notification_demo/app/src/main/res/raw/teemoattack.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Notification_demo/app/src/main/res/raw/whistlefart.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PushNotificationP8/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PushNotificationP8/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PushNotificationP8/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PushNotificationP8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PushNotificationP8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PushNotificationP8/app/src/main/java/com/example/pushnotification_p8/Detail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PushNotificationP8/app/src/main/java/com/example/pushnotification_p8/ListProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PushNotificationP8/app/src/main/java/com/example/pushnotification_p8/MyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PushNotificationP8/app/src/main/res/drawable/chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PushNotificationP8/app/src/main/res/layout/activity_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PushNotificationP8/app/src/main/res/layout/activity_list_product.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PushNotificationP8/app/src/main/res/raw/teemo.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PushNotificationP8/app/src/main/res/raw/teemoattack.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PushNotificationP8/app/src/main/res/raw/whistlefart.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocketDemo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocketDemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocketDemo/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocketDemo/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocketDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocketDemo/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocketDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocketDemo/app/src/main/java/com/example/socketdemo/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocketDemo/app/src/main/java/com/example/socketdemo/Socket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocketDemo/app/src/main/res/layout/activity_socket.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SwipeRefreshLayout/app/src/main/java/com/example/swiperefreshlayout/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SwipeRefreshLayout/app/src/main/java/com/example/swiperefreshlayout/ItemAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SwipeRefreshLayout/app/src/main/res/layout/item_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextToSpeed/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextToSpeed/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextToSpeed/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextToSpeed/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextToSpeed/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextToSpeed/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextToSpeed/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextToSpeed/app/src/main/java/com/example/texttospeed/MainActivity2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextToSpeed/app/src/main/res/drawable/ic_baseline_mic_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextToSpeed/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPager2InAndroid/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPager2InAndroid/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPager2InAndroid/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPager2InAndroid/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPager2InAndroid/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPager2InAndroid/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPager2InAndroid/app/src/main/java/com/example/viewpager2inandroid/adapter/ViewPage2Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPager2InAndroid/app/src/main/java/com/example/viewpager2inandroid/fragment/HomeFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPager2InAndroid/app/src/main/java/com/example/viewpager2inandroid/fragment/NotifyFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPager2InAndroid/app/src/main/java/com/example/viewpager2inandroid/fragment/PageFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPager2InAndroid/app/src/main/java/com/example/viewpager2inandroid/pageTransformer/DepthPageTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPager2InAndroid/app/src/main/java/com/example/viewpager2inandroid/pageTransformer/ZoomOutPageTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPager2InAndroid/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPager2InAndroid/app/src/main/res/layout/fragment_notify.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPager2InAndroid/app/src/main/res/layout/fragment_page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anim_Alpha/app/src/main/res/anim/anim_alpha.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Anim_Alpha/app/src/main/res/anim/anim_alpha.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anim_Intent/app/src/main/java/com/example/anim_intent/MainActivity2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Anim_Intent/app/src/main/java/com/example/anim_intent/MainActivity2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anim_Intent/app/src/main/res/anim/anim_enter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Anim_Intent/app/src/main/res/anim/anim_enter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anim_Intent/app/src/main/res/anim/anim_exit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Anim_Intent/app/src/main/res/anim/anim_exit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anim_Intent/app/src/main/res/layout/activity_main2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Anim_Intent/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anim_Rotate/app/src/main/res/anim/anim_rotate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Anim_Rotate/app/src/main/res/anim/anim_rotate.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anim_Scale/app/src/main/res/anim/anim_scale.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Anim_Scale/app/src/main/res/anim/anim_scale.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anim_Translate/app/src/main/res/anim/anim_translate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Anim_Translate/app/src/main/res/anim/anim_translate.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBook/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AppBook/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoCompleteTextView/app/src/main/java/com/example/autocompletetextview/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AutoCompleteTextView/app/src/main/java/com/example/autocompletetextview/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoCompleteTextView/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AutoCompleteTextView/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoCompleteTextView/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AutoCompleteTextView/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_BUOI4/app/src/main/java/com/example/btvn_buoi4/HangHoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_BUOI4/app/src/main/java/com/example/btvn_buoi4/HangHoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_BUOI4/app/src/main/java/com/example/btvn_buoi4/HangHoaAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_BUOI4/app/src/main/java/com/example/btvn_buoi4/HangHoaAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_BUOI4/app/src/main/java/com/example/btvn_buoi4/MainActivity2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_BUOI4/app/src/main/java/com/example/btvn_buoi4/MainActivity2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_BUOI4/app/src/main/res/drawable/custom_edt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_BUOI4/app/src/main/res/drawable/custom_edt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_BUOI4/app/src/main/res/layout/activity_main2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_BUOI4/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_BUOI4/app/src/main/res/layout/forget_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_BUOI4/app/src/main/res/layout/forget_password.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_BUOI4/app/src/main/res/layout/item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_BUOI4/app/src/main/res/layout/item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_BUOI4/app/src/main/res/layout/login_account.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_BUOI4/app/src/main/res/layout/login_account.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_BUOI5/app/src/main/java/com/example/btvn_buoi5/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_BUOI5/app/src/main/java/com/example/btvn_buoi5/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_BUOI5/app/src/main/res/drawable/custom_buttom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_BUOI5/app/src/main/res/drawable/custom_buttom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_BUOI5/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_BUOI5/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi6/app/src/main/java/com/example/buoi6/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi6/app/src/main/java/com/example/buoi6/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi6/app/src/main/java/com/example/buoi6/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi6/app/src/main/java/com/example/buoi6/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi6/app/src/main/java/com/example/buoi6/SQLHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi6/app/src/main/java/com/example/buoi6/SQLHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi7/app/src/main/java/com/example/buoi7/Fragment1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi7/app/src/main/java/com/example/buoi7/Fragment1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi7/app/src/main/java/com/example/buoi7/Fragment2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi7/app/src/main/java/com/example/buoi7/Fragment2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi7/app/src/main/java/com/example/buoi7/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi7/app/src/main/java/com/example/buoi7/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi7/app/src/main/res/layout/layout_fragment1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi7/app/src/main/res/layout/layout_fragment1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buoi7/app/src/main/res/layout/layout_fragment2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buoi7/app/src/main/res/layout/layout_fragment2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buttom_Navigation/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buttom_Navigation/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buttom_Navigation/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Buttom_Navigation/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buttom_Navigation/app/src/main/java/com/example/buttom_navigation/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Buttom_Navigation/app/src/main/java/com/example/buttom_navigation/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buttom_Navigation/app/src/main/res/color/nav_color.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buttom_Navigation/app/src/main/res/color/nav_color.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buttom_Navigation/app/src/main/res/drawable/rounded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buttom_Navigation/app/src/main/res/drawable/rounded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buttom_Navigation/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buttom_Navigation/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buttom_Navigation/app/src/main/res/menu/menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buttom_Navigation/app/src/main/res/menu/menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buttom_Navigation/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buttom_Navigation/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buttom_Navigation/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Buttom_Navigation/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatHang/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DatHang/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatHang/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DatHang/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatHang/app/src/main/java/com/example/dathang/HangHoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DatHang/app/src/main/java/com/example/dathang/HangHoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatHang/app/src/main/java/com/example/dathang/HangHoaAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DatHang/app/src/main/java/com/example/dathang/HangHoaAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatHang/app/src/main/java/com/example/dathang/HangHoaAdapter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DatHang/app/src/main/java/com/example/dathang/HangHoaAdapter2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatHang/app/src/main/java/com/example/dathang/IOnClickHangHoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DatHang/app/src/main/java/com/example/dathang/IOnClickHangHoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatHang/app/src/main/java/com/example/dathang/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DatHang/app/src/main/java/com/example/dathang/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatHang/app/src/main/java/com/example/dathang/MainActivity2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DatHang/app/src/main/java/com/example/dathang/MainActivity2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatHang/app/src/main/java/com/example/dathang/MainActivity3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DatHang/app/src/main/java/com/example/dathang/MainActivity3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatHang/app/src/main/res/anim/anim_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DatHang/app/src/main/res/anim/anim_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatHang/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DatHang/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatHang/app/src/main/res/layout/activity_main2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DatHang/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatHang/app/src/main/res/layout/activity_main3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DatHang/app/src/main/res/layout/activity_main3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatHang/app/src/main/res/layout/forget_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DatHang/app/src/main/res/layout/forget_password.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatHang/app/src/main/res/layout/item_hanghoa2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DatHang/app/src/main/res/layout/item_hanghoa2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DropAndDropRecyclerView/app/src/main/java/com/example/dropanddroprecyclerview/ItemAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DropAndDropRecyclerView/app/src/main/java/com/example/dropanddroprecyclerview/ItemAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DropAndDropRecyclerView/app/src/main/res/layout/text_view_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DropAndDropRecyclerView/app/src/main/res/layout/text_view_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragment/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragment/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragment/app/src/main/java/com/example/fragment/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragment/app/src/main/java/com/example/fragment/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragment/app/src/main/java/com/example/fragment/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragment/app/src/main/java/com/example/fragment/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragment/app/src/main/java/com/example/fragment/fragment1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragment/app/src/main/java/com/example/fragment/fragment1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragment/app/src/main/java/com/example/fragment/fragment2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragment/app/src/main/java/com/example/fragment/fragment2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragment/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragment/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragment/app/src/main/res/layout/layout_fragment1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragment/app/src/main/res/layout/layout_fragment1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragment/app/src/main/res/layout/layout_fragment2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragment/app/src/main/res/layout/layout_fragment2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IPA_demo_Buoi6/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IPA_demo_Buoi6/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IPA_demo_Buoi6/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IPA_demo_Buoi6/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IPA_demo_Buoi6/app/src/main/java/com/example/ipa_demo_buoi6/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IPA_demo_Buoi6/app/src/main/java/com/example/ipa_demo_buoi6/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IPA_demo_Buoi6/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IPA_demo_Buoi6/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntegratePythonWithAndroid/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntegratePythonWithAndroid/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntegratePythonWithAndroid/app/src/main/python/sumOfNumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/../IntegratePythonWithAndroid/app/src/main/python/sumOfNumber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntentDataResult/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntentDataResult/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntentDataResult/app/src/main/java/com/example/intentdataresult/MainActivity2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IntentDataResult/app/src/main/java/com/example/intentdataresult/MainActivity2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntentDataResult/app/src/main/res/layout/activity_main2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntentDataResult/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListViewP2/app/src/main/res/anim/anim_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ListViewP2/app/src/main/res/anim/anim_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniAppMusic/app/src/main/java/com/example/miniappmusic/IOnClickSong.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MiniAppMusic/app/src/main/java/com/example/miniappmusic/IOnClickSong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniAppMusic/app/src/main/java/com/example/miniappmusic/ListSong.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MiniAppMusic/app/src/main/java/com/example/miniappmusic/ListSong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniAppMusic/app/src/main/java/com/example/miniappmusic/ListSongAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MiniAppMusic/app/src/main/java/com/example/miniappmusic/ListSongAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniAppMusic/app/src/main/java/com/example/miniappmusic/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MiniAppMusic/app/src/main/java/com/example/miniappmusic/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniAppMusic/app/src/main/res/anim/disc_rotate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MiniAppMusic/app/src/main/res/anim/disc_rotate.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniAppMusic/app/src/main/res/anim/name_of_song.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MiniAppMusic/app/src/main/res/anim/name_of_song.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniAppMusic/app/src/main/res/layout/activity_list_song.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MiniAppMusic/app/src/main/res/layout/activity_list_song.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniAppMusic/app/src/main/res/layout/item_song.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MiniAppMusic/app/src/main/res/layout/item_song.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniGame/app/src/main/java/com/example/minigame/MainActivity2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MiniGame/app/src/main/java/com/example/minigame/MainActivity2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniGame/app/src/main/res/layout/activity_main2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MiniGame/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniGame/app/src/main/res/menu/reload.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MiniGame/app/src/main/res/menu/reload.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SharedPrerences/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SharedPrerences/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StickyListHeader/app/src/main/java/com/example/stickylistheader/UserAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StickyListHeader/app/src/main/java/com/example/stickylistheader/UserAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StickyListHeader/app/src/main/res/layout/layout_header.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StickyListHeader/app/src/main/res/layout/layout_header.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StickyListHeader/app/src/main/res/layout/layout_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StickyListHeader/app/src/main/res/layout/layout_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TabLayout_Demo/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TabLayout_Demo/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TabLayout_Demo/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../TabLayout_Demo/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/java/com/example/tablayout_demo/BlankFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/java/com/example/tablayout_demo/BlankFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/java/com/example/tablayout_demo/BlankFragment2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/java/com/example/tablayout_demo/BlankFragment2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/java/com/example/tablayout_demo/BlankFragment3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/java/com/example/tablayout_demo/BlankFragment3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/java/com/example/tablayout_demo/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/java/com/example/tablayout_demo/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/java/com/example/tablayout_demo/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/java/com/example/tablayout_demo/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/java/com/example/tablayout_demo/CountryAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/java/com/example/tablayout_demo/CountryAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/java/com/example/tablayout_demo/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/java/com/example/tablayout_demo/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/res/drawable/custom_btn_support.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/res/drawable/custom_btn_support.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/res/drawable/custom_button_img.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/res/drawable/custom_button_img.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/res/drawable/custom_edt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/res/drawable/custom_edt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/res/drawable/custom_edt_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/res/drawable/custom_edt_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/res/drawable/custom_imgbutton.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/res/drawable/custom_imgbutton.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/res/drawable/custom_item_box.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/res/drawable/custom_item_box.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/res/layout/fragment_blank.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/res/layout/fragment_blank.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/res/layout/fragment_blank2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/res/layout/fragment_blank2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/res/layout/fragment_blank3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/res/layout/fragment_blank3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/res/layout/item_box.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TabLayout_Demo/app/src/main/res/layout/item_box.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nCovid/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nCovid/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nCovid/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../nCovid/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nCovid/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nCovid/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nCovid/app/src/main/java/com/example/ncovid/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nCovid/app/src/main/java/com/example/ncovid/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nCovid/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nCovid/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testAPI/app/src/main/java/com/example/testapi/GirlAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../testAPI/app/src/main/java/com/example/testapi/GirlAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testAPI/app/src/main/java/com/example/testapi/LinkGrils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../testAPI/app/src/main/java/com/example/testapi/LinkGrils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testAPI/app/src/main/res/layout/item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testAPI/app/src/main/res/layout/item.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@127.0.0.1:62001]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1s3eeMglF9W9sGJTtG3R6Iw6Iio" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="SerialNumber@WCY7N18428003355" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-05-06T03:04:20.139355800Z" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.1819881889">
+      <recent name="com.example.callvideodemo.activities" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.callvideodemo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.callvideodemo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Android_HIT_2021\CallVideoDemo\app\src\main\res\drawable" />
+      <recent name="D:\Android_HIT_2021\CallVideoDemo\app\src\main\res\drawable-v24" />
+      <recent name="D:\Android_HIT_2021\CallVideoDemo\app\src\main\res\layout" />
+      <recent name="D:\Android_HIT_2021\CallVideoDemo\app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="CallVideoDemo.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5258cd87-faf7-43d1-8a5c-3b120cfea70f" name="Default Changelist" comment="" />
+      <created>1620105794708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620105794708</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="520" y="256" key="#Notifications" timestamp="1620263109096">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="520" y="256" key="#Notifications/0.0.1536.864@0.0.1536.864" timestamp="1620263109096" />
+    <state x="361" y="73" key="#Plugins" timestamp="1620260495728">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="73" key="#Plugins/0.0.1536.864@0.0.1536.864" timestamp="1620260495728" />
+    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1620180360622">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1620180360622" />
+    <state x="833" y="168" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1620260128435">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="833" y="168" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.864@0.0.1536.864" timestamp="1620260128435" />
+    <state x="342" y="357" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1620151275518">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="342" y="357" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.864@0.0.1536.864" timestamp="1620151275518" />
+    <state x="566" y="314" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1620151278645">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="566" y="314" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.864@0.0.1536.864" timestamp="1620151278645" />
+    <state x="349" y="187" key="AndroidCreateResourceDirectoryDialog" timestamp="1620147318241">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="349" y="187" key="AndroidCreateResourceDirectoryDialog/0.0.1536.864@0.0.1536.864" timestamp="1620147318241" />
+    <state x="349" y="187" key="AndroidCreateResourceFileDialog" timestamp="1620187287786">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="349" y="187" key="AndroidCreateResourceFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1620187287786" />
+    <state x="559" y="179" key="AndroidProcessChooserDialog" timestamp="1620270131753">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="559" y="179" key="AndroidProcessChooserDialog/0.0.1536.864@0.0.1536.864" timestamp="1620270131753" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1620156800896">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1620156800896" />
+    <state width="1491" height="223" key="GridCell.Tab.0.bottom" timestamp="1620201110992">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1620201110992" />
+    <state width="1491" height="223" key="GridCell.Tab.0.center" timestamp="1620201110991">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1620201110991" />
+    <state width="1491" height="223" key="GridCell.Tab.0.left" timestamp="1620201110991">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1620201110991" />
+    <state width="1491" height="223" key="GridCell.Tab.0.right" timestamp="1620201110991">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1620201110991" />
+    <state x="584" y="210" key="chooseDestDirectoryDialog" timestamp="1620156947646">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="584" y="210" key="chooseDestDirectoryDialog/0.0.1536.864@0.0.1536.864" timestamp="1620156947646" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1620265242928">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1620265242928" />
+  </component>
+</project>

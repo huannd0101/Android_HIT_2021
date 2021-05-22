@@ -4,11 +4,169 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".BlankFragment3">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/titlePhanAnh"
+            android:textColor="#000"
+            android:padding="15dp"
+            android:textSize="24dp"
+            android:text="Phản ánh thông tin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:paddingLeft="15dp"
+            android:layout_below="@+id/titlePhanAnh"
+            android:id="@+id/tv1"
+            android:text="Vui lòng nhập thông tin hoặc gọi đường dây nóng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:id="@+id/ll5"
+            android:padding="0dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_imgbutton"
+            android:weightSum="10"
+            android:layout_below="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:background="@drawable/custom_button_img"
+                android:padding="5dp"
+                android:src="@drawable/call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:backgroundTint="#F84A4A"
+                android:layout_width="162dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:background="#F6C8C8"
+                android:padding="7.5dp"
+                android:text="19009095"
+                android:textColor="#950000"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/ll5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/rlt2"
+                android:layout_width="match_parent"
+                android:layout_height="400dp">
+                <TextView
+                    android:textStyle="bold"
+                    android:text="Chọn các trường hợp phản ánh"
+                    android:id="@+id/tv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <CheckBox
+                    android:id="@+id/cb1"
+                    android:layout_below="@+id/tv2"
+                    android:text="Có người tiếp xúc với trường hợp bệnh hoặc nghi ngờ mắc bênh COVID-19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <CheckBox
+                    android:id="@+id/cb2"
+                    android:layout_below="@+id/cb1"
+                    android:text="Có trường hợp đi từ vùng dịch COVID-19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <CheckBox
+                    android:id="@+id/cb3"
+                    android:layout_below="@+id/cb2"
+                    android:text="Có người tiếp xúc với các trường hợp đi về từ vùng dịch COVID-19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:text="Nội dung phản ánh khác"
+                    android:layout_below="@+id/cb3"
+                    android:id="@+id/tv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:background="@drawable/custom_edt_2"
+                    android:hint="Nhập nội dung"
+                    android:id="@+id/edt1"
+                    android:layout_width="match_parent"
+                    android:layout_height="121dp"
+                    android:layout_below="@+id/tv3" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="Địa điểm xảy ra"
+                    android:layout_below="@+id/edt1"
+                    android:id="@+id/tv4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+                <RelativeLayout
+                    android:id="@+id/rlt3"
+                    android:layout_below="@+id/tv4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Spinner
+                        android:id="@+id/spinnerTinh"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <Spinner
+                        android:layout_marginTop="15dp"
+                        android:id="@+id/spinnerHuyen"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/spinnerTinh" />
+
+                    <Spinner
+                        android:layout_marginTop="15dp"
+                        android:id="@+id/spinnerQuan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/spinnerHuyen" />
+
+                </RelativeLayout>
+
+                <CheckBox
+                    android:textSize="18dp"
+                    android:textColor="#F67575"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/cb4"
+                    android:layout_below="@+id/rlt3"
+                    android:text="Tôi cam kết các thông tin khai báo là đúng sự thật và đồng ý chia sẻ vị trí để cơ quan chức năng có thể hỗ trợ tốt nhất"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:id="@+id/btnSend"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_below="@+id/cb4"
+                    android:text="Gửi thông tin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+
 
 </FrameLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/mountains2"
+    android:id="@+id/background"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBox
+        android:layout_marginTop="20dp"
+        android:id="@+id/cb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <SeekBar
+        android:background="@null"
+        android:progress="5"
+        android:layout_toRightOf="@+id/cb1"
+        android:id="@+id/sk1"
+        android:progressDrawable="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:thumb="@drawable/img1" />
+
+    <CheckBox
+        android:id="@+id/cb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cb1"
+        android:layout_marginTop="58dp" />
+
+    <SeekBar
+        android:background="@null"
+        android:progress="5"
+        android:layout_toRightOf="@+id/cb2"
+        android:layout_below="@+id/sk1"
+        android:id="@+id/sk2"
+        android:progressDrawable="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:thumb="@drawable/img2" />
+
+    <CheckBox
+        android:id="@+id/cb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cb2"
+        android:layout_marginTop="58dp" />
+    <SeekBar
+        android:layout_toRightOf="@+id/cb3"
+        android:progress="5"
+        android:layout_below="@+id/sk2"
+        android:id="@+id/sk3"
+        android:progressDrawable="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:thumb="@drawable/img3" />
+
+    <ImageButton
+        android:background="@null"
+        android:id="@+id/imgbtn1"
+        android:layout_centerInParent="true"
+        android:src="@drawable/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Switch
+        android:id="@+id/swt1"
+        android:text="Click để chuyển background"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/cb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
